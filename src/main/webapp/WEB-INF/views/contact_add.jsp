@@ -11,9 +11,9 @@
 	<div class="container-sm" style="background-color: #FCFCFC;">
 		<div class="row">
 			<div class="col-md-6 offset-md-3">
-				<h4 class="text-center mb-3 mt-3 text-warning">Add Member</h4>
+				<h4 class="text-center mb-3 mt-3 text-warning">Add Contact</h4>
 				<!-- form -->
-				<form action="add-member" method="post">
+				<form action="add-contact" method="post">
 					<div>
 						<label for="first-name"><span style="font-size:12px;">First name</span></label>
 						<input type="text" class="form-control fw-light" id="first-name" name="first-name"
@@ -25,12 +25,12 @@
                             placeholder="Last name...">
                     </div>
 					<div>
-						<label for="email"><span style="font-size:12px;">Email</span></label>
-						<input type="text" class="form-control fw-light" id="email" name="email"
-                             placeholder="Email...">
+						<label for="phone"><span style="font-size:12px;">Phone</span></label>
+						<input type="text" class="form-control fw-light" id="phone" name="phone"
+                             placeholder="Phone...">
 					</div>
 					<div class="container text-center mb-4"><br>
-						<a href="${pageContext.request.contextPath}/members" class="btn btn-outline-primary btn-sm">Back</a>
+						<a href="${pageContext.request.contextPath}/contacts" class="btn btn-outline-primary btn-sm">Back</a>
 						&nbsp;&nbsp;
                         <button type="submit" class="btn btn-primary btn-sm">Add</button>
 					</div>

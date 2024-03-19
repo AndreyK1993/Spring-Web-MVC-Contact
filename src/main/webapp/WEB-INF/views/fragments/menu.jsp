@@ -4,15 +4,15 @@
 <nav class="navbar navbar-expand-lg" style="background-color: #5905a3;">
   <div class="container-fluid">
     <a class="navbar-brand fw-bold" style="color: white;">
-      <img src="./resources/icons/stack-of-books.png" alt="Logo"
+      <img src="./resources/icons/hotel.png" alt="Logo"
       width="32" height="36" class="d-inline-block align-text-top">
-      Book Club
+      Sunny Hotel
     </a>
     <div class="collapse navbar-collapse" id="navbarNavAltMarkup">
       <div class="navbar-nav">
         <a class="nav-link" href="./home" style="color: white;">Home</a>
-        <a class="nav-link" href="./books"style="color: white;">Books</a>
-        <a class="nav-link" href="./members"style="color: white;">Members</a>
+
+        <a class="nav-link" href="./contacts"style="color: white;">Contacts</a>
       </div>
     </div>
   </div>

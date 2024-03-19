@@ -5,9 +5,9 @@
 -- Тому такий функціонал у додатку не прописуємо.
 -- Можемо створити БД через візуальний інструмент, наприклад,
 -- MySQL Workbench.
-CREATE DATABASE contacts_new_db;
+CREATE DATABASE contacts1_new_db;
 
-USE contacts_new_db;
+USE contacts1_new_db;
 
 
 -- ТАБЛИЦІ

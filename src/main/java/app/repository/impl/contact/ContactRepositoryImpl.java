@@ -48,7 +48,7 @@ public class ContactRepositoryImpl implements ContactRepository {
             Session session = sessionFactory.getCurrentSession();
             String hql = "UPDATE Contact SET firstName = :firstName, " +
                     "lastName = :lastName, " +
-                    "phone = :phone, " +
+                    "phone = :phone " +
                     "WHERE id = :id";
             MutationQuery query = session.createMutationQuery(hql);
             query.setParameter("firstName", contact.getFirstName());

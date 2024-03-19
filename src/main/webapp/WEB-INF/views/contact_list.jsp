@@ -13,7 +13,7 @@
 		<div class="row">
 			<div class="col-md-12">
 				<div class="container text-left mb-3">
-                    <a href="create-member" class="btn btn-primary btn-sm m-2"><i class="bi bi-plus-lg"></i> Add Member</a><br>
+                    <a href="create-contact" class="btn btn-primary btn-sm m-2"><i class="bi bi-plus-lg"></i> Add Contact</a><br>
                 </div>
 				<table class="table">
 					<thead class="table-light">
@@ -21,21 +21,21 @@
 							<th scope="col">ID</th>
 							<th scope="col">First Name</th>
 							<th scope="col">Last Name</th>
-							<th scope="col">Email</th>
+							<th scope="col">Phone</th>
 							<th scope="col">Action</th>
 						</tr>
 					</thead>
 					<tbody>
-						<c:forEach items="${members}" var="m">
+						<c:forEach items="${contacts}" var="m">
 							<tr>
 								<th scope="row">${m.id}</th>
 								<td>${m.firstName}</td>
 								<td>${m.lastName}</td>
-								<td>${m.email}</td>
+								<td>${m.phone}</td>
 								<td>
-								    <a class="btn btn-warning btn-sm" href="update-member/${m.id}" role="button">Update</a>
+								    <a class="btn btn-warning btn-sm" href="update-contact/${m.id}" role="button">Update</a>
 								    &nbsp;&nbsp;
-								    <a class="btn btn-danger btn-sm" href="delete-member/${m.id}" role="button">Delete</a>
+								    <a class="btn btn-danger btn-sm" href="delete-contact/${m.id}" role="button">Delete</a>
 								</td>
 							</tr>
 						</c:forEach>
