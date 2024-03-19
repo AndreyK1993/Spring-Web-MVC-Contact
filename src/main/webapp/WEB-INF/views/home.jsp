@@ -6,12 +6,12 @@
 <head>
 <%@include file="./fragments/head.jsp"%>
 </head>
-<body style="background-color: #E9ECEB;">
+<body style="background-color: #1fab44;">
 <%@include file="./fragments/menu.jsp"%>
 <div class="container m-2" style="background-color: #FCFCFC;">
 	<div class="container-sm align-items-center justify-content-center">
         <div class="container text-center p-2">
-            <img src="./resources/images/sunny_beach.png" class="img-fluid" alt="home-img">
+            <img src="./resources/images/sunny_beach.png" class="img-fluid" alt="home-img" style="width: 1200px; height: 600px;">
         </div>
 	</div>
 </div>

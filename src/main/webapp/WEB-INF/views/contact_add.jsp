@@ -15,13 +15,13 @@
 				<!-- form -->
 				<form action="add-contact" method="post">
 					<div>
-						<label for="first-name"><span style="font-size:12px;">First name</span></label>
-						<input type="text" class="form-control fw-light" id="first-name" name="first-name"
+						<label for="firstName"><span style="font-size:12px;">First name</span></label>
+						<input type="text" class="form-control fw-light" id="firstName" name="firstName"
 							placeholder="First name...">
 					</div>
 					<div>
-                        <label for="last-name"><span style="font-size:12px;">Last name</span></label>
-                        <input type="text" class="form-control fw-light" id="last-name" name="last-name"
+                        <label for="lastName"><span style="font-size:12px;">Last name</span></label>
+                        <input type="text" class="form-control fw-light" id="lastName" name="lastName"
                             placeholder="Last name...">
                     </div>
 					<div>

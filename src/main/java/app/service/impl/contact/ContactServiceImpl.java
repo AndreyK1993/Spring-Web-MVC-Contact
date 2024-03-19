@@ -42,6 +42,7 @@ public class ContactServiceImpl implements ContactService {
     @Override
     @Transactional
     public boolean update(Long id, Contact contact) {
+
         return repository.update(id, contact);
     }
 

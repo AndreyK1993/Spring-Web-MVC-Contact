@@ -1,7 +1,7 @@
 <%@ page language="java" contentType="text/html; charset=UTF-8"
 	pageEncoding="UTF-8" isELIgnored="false"%>
 <%@ taglib prefix="c" uri="jakarta.tags.core"%>
-<nav class="navbar navbar-expand-lg" style="background-color: #5905a3;">
+<nav class="navbar navbar-expand-lg" style="background-color: #1fab44;">
   <div class="container-fluid">
     <a class="navbar-brand fw-bold" style="color: white;">
       <img src="./resources/icons/hotel.png" alt="Logo"
